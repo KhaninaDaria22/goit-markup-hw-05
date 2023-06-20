@@ -494,8 +494,7 @@ url(../images/img-name.jpg);
     
 }
 .footer-Subscribe {
-    display: flex; 
-    gap: 24px;
+    margin-left: 80px;
 
 }
 .subsctibe-input {
@@ -534,6 +533,7 @@ url(../images/img-name.jpg);
     border-radius: 4px;
     width: 165px;
     padding: 8px 24px;
+    
 }
 .svg-subsctibe {
     margin-left: 16px;
@@ -898,7 +898,7 @@ url(../images/img-name.jpg);
     display: inline-flex; 
     
 }
-.footer-subsctibe {
+.footer-subscribe-form {
     display: flex;
     gap: 24px;
 }
