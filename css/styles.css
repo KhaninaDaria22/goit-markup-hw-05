@@ -823,7 +823,7 @@ url(../images/img-name.jpg);
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     
 }
 .modal-field-checkbox {
@@ -883,6 +883,7 @@ url(../images/img-name.jpg);
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
+
     align-items: center;
 }
 .check-text a {
@@ -900,20 +901,19 @@ url(../images/img-name.jpg);
     align-items: center;
     fill: transparent;
 }
-
 .input-check:checked + .check-text span {
     background-color: var(--colar-btn);
     border: none;
     fill: var(--background-color);
    
 }
-.input-check-svg { 
+.input-check { 
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex; 
-    border-radius: 2px;
+    
 }
 .footer-subscribe-form {
     display: flex;
