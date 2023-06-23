@@ -441,19 +441,21 @@
                         </div>    
                     </div>
                     <div class="modal-field"> 
-                        <label class="name-label"> Comment</label>
+                        <label class="user-comment"> Comment</label>
                         <textarea 
-                            name="modal-text"
+                            name="user-comment"
                             placeholder="Text input"
-                            class="modal-texterea"></textarea>   
+                            class="modal-texterea"
+                            id="user-comment"></textarea>
+                               
                     </div>
                     <div class="modal-field-checkbox" >
-                        <input type="checkbox"name="policy" id="user-privacy" class="input-check visually-hidden" value="true" checked/>
+                        <input type="checkbox" name="policy" id="user-privacy" class="input-check visually-hidden" value="true" checked/>
                         <label for="user-privacy" class="check-text" >
-                            <span><svg class="input-check" width="10" height="8"> 
+                            <span class="span-modal"><svg class="input-check" width="10" height="8"> 
                             <use href="./images/icons.svg#icon-Vector">
                             </use>
-                        </svg></span> I accept the terms and conditions of the <a href="">Privacy Policy</a>
+                        </svg></span> I accept the terms and conditions of the <a href="" class="modal-link">Privacy Policy</a>
                         </label>
                     </div> 
                      <button type="submit" class="submit-btn">Send</button>
