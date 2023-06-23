@@ -486,7 +486,7 @@ url(../images/img-name.jpg);
 }
 .footer-digital-list {
     display: flex;
-    gap: 16px;
+    
 }
 .footer-digital-item {
     width: 40px;
@@ -496,6 +496,9 @@ url(../images/img-name.jpg);
 .footer-Subscribe {
     margin-left: 80px;
 
+}
+.label-form {
+    gap: 24px;
 }
 .subsctibe-input {
     font-weight: 400;
@@ -512,6 +515,7 @@ url(../images/img-name.jpg);
     Width: 264px;
     Height: 40px;
     line-height: 1.5;
+    background-color: transparent; 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .subsctibe-input::placeholder {
@@ -778,6 +782,7 @@ url(../images/img-name.jpg);
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
+    margin-bottom: 16px;
   
 }
 .form-input {
@@ -816,7 +821,7 @@ url(../images/img-name.jpg);
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 .modal-field-checkbox {
     margin-bottom: 24px;
