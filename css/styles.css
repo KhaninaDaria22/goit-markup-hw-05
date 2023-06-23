@@ -823,7 +823,7 @@ url(../images/img-name.jpg);
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     
 }
 .modal-field-checkbox {
@@ -883,7 +883,6 @@ url(../images/img-name.jpg);
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
-    display: flex;
     align-items: center;
 }
 .check-text a {
