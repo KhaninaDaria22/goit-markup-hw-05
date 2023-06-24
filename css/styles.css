@@ -844,6 +844,9 @@ url(../images/img-name.jpg);
     fill: #4D5AE5; 
 
  }
+ .modal-field-div {
+    margin-bottom: 16px;
+ }
 .input-wrap {
     position: relative;
 }
